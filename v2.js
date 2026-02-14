@@ -7,7 +7,6 @@ function sayNo() {
     hideMainElements();
     document.getElementById("sadBear").classList.remove("hidden"); // Show No GIF
 }
-
 function hideMainElements() {
     document.getElementById("mainGif").classList.add("hidden"); // Hide main GIF
     document.getElementById("mainText").classList.add("hidden"); // Hide main text
@@ -30,3 +29,4 @@ function createHeart() {
 }
 
 setInterval(createHeart, 300);
+
